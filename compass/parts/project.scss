@@ -1,0 +1,184 @@
+body{
+
+	font-family: 'Open Sans', sans-serif;
+	background-color:#E6E6E6;
+
+}
+
+h3{
+	color: #fff;
+	font-size: 4rem;
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+}
+
+/* NAV */
+
+nav{
+
+	position: fixed;
+	top:25px;
+	left:0px;
+	z-index: 1000;
+	background-color: #fff;
+
+	.menu_toggle{
+
+		width:80px;
+		height:80px;
+		background-color: #fff;
+		text-align: center;
+		display: inline-block;
+		vertical-align:middle;
+		font-size: 3.3rem;
+		color:#000;
+
+	}
+
+	.dclogo{
+		width:100px;
+		display: inline-block;
+		padding:10px;
+	}
+
+}
+
+/* SECTION */
+
+section{
+
+	width:100%;
+	height:100%;
+
+	header{
+
+		width:100%;
+		height:500px;
+		background-color: #333;
+		text-align: center;
+		overflow:hidden;
+		background-color: #00a79a;
+
+		.header_slide{
+			display:inline-block;
+			width:100%;
+			max-width: 1000px;
+		}
+
+	}
+
+	article{
+
+		background-color:#99D7D0;
+
+		.column{
+
+			padding:5%;
+
+		}
+
+		
+
+		.keyInfo{
+			background-color:#fff;
+
+			.button{
+				background-color: #99D7D0;
+				margin-bottom:5px;
+				color:#333;
+			}
+		}
+
+		.secondaryInfo{
+
+			.button{
+				background-color: #333;
+				margin-bottom:5px;
+			}
+
+		}
+
+		
+
+	}
+
+	.clientRow{
+
+		.secondaryInfo{
+			text-align: center;
+		}
+
+		.client_logo{
+			background-color: #fff;
+			display: inline-block;
+			padding:10px;
+		}
+
+	}
+
+	aside{
+
+		background-color: #99D7D0;
+		padding:1px;
+
+		.stat-container:hover .stat-info{
+			
+			display:block;
+			cursor: pointer;
+
+		}
+
+		.column{
+			 
+			background-color: #333;
+			padding:0px;
+			border:1px solid #99D7D0;
+
+			img{
+				width:100%;
+			}
+			
+			h3{
+				
+				background-color: rgba(0,0,0,0.4);
+				/*background-color: rgba(51,51,51,0.90);*/
+				/*background-color: rgba(151,215,208,0.75);*/
+				position: absolute;
+				top:0px;
+				left:0px;
+				width:100%;
+				height:100%;
+				padding:23% 0%;
+				text-align: center;
+				display: inline-block;
+				z-index: 10;
+				margin: 0px;
+
+
+			}
+
+			.stat-info{
+
+				display:none;
+				left:0px;
+				bottom:0px;
+				position: absolute;
+				padding:5%;
+				background-color: #99D7D0;
+				z-index: 50;
+				width:100%;
+				height:100%;
+				color:#fff;
+
+				p{
+					font-size: 2rem;
+					line-height: 2.2rem;
+				}
+
+			}
+
+		}
+
+	}
+
+}
